@@ -7,7 +7,7 @@
 
 <style>
 
-table, th, td, tr{
+table, th, td, tr, form{
 border: 2px solid black;
 border-collapse: collapse;
 }
@@ -69,26 +69,66 @@ border-collapse: collapse;
 </tr>
 
 
-
-
-
-
     </table>
 
 
+<h2>Apresentação Formulários</h2>
+
+<form action="#">
+
+<label for="meuID"> 
+    Rótulo da informação a ser inserida
+</label>
+<br>
+<input type="text" id="meuID">
+<br>
+<label for="">Rótulo para número
+</label>
+<br>
+<input type="number" id="numero" value="1000">
+<br>
+
+<label for="">Rótulo para email</label>
+<br>
+<input type="email" name="" id="email" placeholder="exemplo@email.com">
+<br>
+<label for="senha">Rótulo para senha</label>
+<br>
+<input type="password" name="" id="senha">
+<br>
+<label for="">Exemplo caixas de seleção</label>
+<br>
+<input type="checkbox" name="selecao" id="f" value="lojafeminino">
+<label for="f"> Loja Departamento Feminina</label>
+<br>
+<input type="checkbox" name="selecao" id="m" value="lojaMasculino">
+<label for="m">Loja Departamneto Masculino</label>
+<br>
+<label for="">Exemplo de Seleção Única</label>
+<br>
+<input type="radio" name="SelecaoUnica" id="um" value="1">
+<label for="um">Primeira opção</label>
+<br>
+<input type="radio" name="SelecaoUnica" id="dois" value="2">
+<label for="dois">Segunda opção</label>
+<br>
+<label for="testSelect">Seleção por lista</label>
+<br>
+<select name="testSelect" id="testSelect">
+
+<option value="1" disabled>UM</option>
+<option value="3">DOIS</option>
+<option value="3">TRÊS</option>
+
+</select>
+<br>
+<textarea name="" id="" cols="30" rows="10" placeholder="Xinque aqui"></textarea>
 
 
 
+</form>
 
 
-
-
-
-
-
-
-
-
-    
+   
 </body>
 </html>
